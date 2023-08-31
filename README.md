@@ -16,6 +16,6 @@ enjoyable and hassle-free.
 
 ## Getting Started
 
-To run this app locally, follow these steps:
+To run this app locally, follow these steps: download and run in emulator or mobile  phone
 
- Clone this repository to your local machine using:
+ Clone this repository to your local machine using: .
