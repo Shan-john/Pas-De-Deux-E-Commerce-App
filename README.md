@@ -18,4 +18,4 @@ enjoyable and hassle-free.
 
 To run this app locally, follow these steps:
 
- Clone this repository to your local machine using:
+Clone this repository to your local machine using:
