@@ -14,8 +14,4 @@ in real-time.
 Personalized Attention:** Our team is here to provide you with exceptional support and assistance. We're dedicated to making your shopping experience 
 enjoyable and hassle-free.
 
-## Getting Started
 
-To run this app locally, follow these steps:
-
- Clone this repository to your local machine using:
