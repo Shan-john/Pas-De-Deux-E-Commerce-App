@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489111586757",
+    "project_id": "screw-78f73",
+    "storage_bucket": "screw-78f73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489111586757:android:452de786080201efb52dac",
+        "android_client_info": {
+          "package_name": "com.example.screw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489111586757-6j3nb3l7ei9kfo75t3iecg2lk5ravau2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_05BIX2I-tEEMQoKAbMJN64D84RFPMf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489111586757-6j3nb3l7ei9kfo75t3iecg2lk5ravau2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

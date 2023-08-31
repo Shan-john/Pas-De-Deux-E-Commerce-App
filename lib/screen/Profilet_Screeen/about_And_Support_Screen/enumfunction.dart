@@ -1,0 +1,6 @@
+
+
+enum aboutScreenOrsupportScreen{
+  aboutscreen,
+  supportscreen,
+}
