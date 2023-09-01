@@ -97,7 +97,7 @@ class _LoginState extends State<Login> {
                   widget: const Text("Login"),
                 ),
                 CustomSpacers(height: hsize / 35),
-                const Center(child: Text("Don't Have A Account ",style: TextStyle(color: Color.fromARGB(251, 255, 255, 255)),)),
+                const Center(child: Text("Don't Have An Account ",style: TextStyle(color: Color.fromARGB(251, 255, 255, 255)),)),
                 CustomSpacers(height: hsize / 70),
                 Center(
                     child: InkWell(
