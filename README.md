@@ -6,9 +6,9 @@ using Flutter for the frontend and Firebase for backend services.
 ## Features
 
 On Request Shopping: Explore a curated collection of fashion, accessories, and lifestyle products. Express interest in a product by tapping the "Request" 
-button, and our team will connect with you via Instagram for a personalized shopping experience.
+button, and our team will connect with you via Instagram or Whatsapp for a personalized shopping experience.
 
-Direct Messaging: Seamlessly communicate with our team through Instagram direct messages. Get personalized recommendations, product details, and support 
+Whatsapp Messaging: Seamlessly communicate with our team through Instagram WhatsApp  messages. Get personalized recommendations, product details, and support 
 in real-time. 
 
 Personalized Attention: Our team is here to provide you with exceptional support and assistance. We're dedicated to making your shopping experience 
