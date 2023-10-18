@@ -126,4 +126,4 @@ Widget textfieldeditor(
     ),
   );
 }
-// App SKU = sj.pasdedeux.com
+// App SKU = com.example.pasdedeux
