@@ -25,13 +25,13 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "96ae916cd2d1b7320fff853ee
 "assets/AssetManifest.bin": "cff199a0604f21bde5363446d8dc9238",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/NOTICES": "ccaad8d34cb416c3c418937db628bac3",
-"index.html": "7dbec4100c6d34146f81ac2e5b1c8b8e",
-"/": "7dbec4100c6d34146f81ac2e5b1c8b8e",
+"index.html": "6a55bff06d2ebdc2b9e5d5d7eecede03",
+"/": "6a55bff06d2ebdc2b9e5d5d7eecede03",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"main.dart.js": "8eb2f36de753958f78a7a70d3cab85c6",
+"main.dart.js": "6cef0c0647fa97fb81b2585660d06c52",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "1bb30189827263b5038b3089b84173dd"};
 // The application shell files that are downloaded before a service worker can

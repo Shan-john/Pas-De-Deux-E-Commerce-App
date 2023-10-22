@@ -15,7 +15,7 @@ class Responsive_Layout_Error_Screen extends StatelessWidget {
         ,
         child: Center(child: Text(
               "Turn off \"Desktop veiw\"and switch to \"normal view\"",
-              style:    GoogleFonts.openSans(color: Colors.red, fontSize: 25),
+              style:    GoogleFonts.openSans(color: Colors.white, fontSize: 25),
             ),),
       ),
     );
