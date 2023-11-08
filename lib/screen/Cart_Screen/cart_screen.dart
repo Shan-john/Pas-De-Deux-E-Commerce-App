@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -8,7 +6,6 @@ import 'package:hexcolor/hexcolor.dart';
 
 import 'package:provider/provider.dart';
 import 'package:screw/constant/constants.dart';
-
 
 import 'package:screw/provider/app_provider.dart';
 
@@ -35,6 +32,7 @@ class _CartScreeenState extends State<CartScreeen> {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     AppProvider appProvider = Provider.of<AppProvider>(context);
 
     return Scaffold(
@@ -66,7 +64,8 @@ class _CartScreeenState extends State<CartScreeen> {
                       )
                     : ShowMessage("Cart is empty");
               },
-              wsize: 240,
+              // wsize: 240,
+              wsize: size.width-190,
               hsize: 70,
               text: "BUY",
               wdivby: 1,
@@ -175,7 +174,7 @@ Future displaybottomsheet(
       context: context,
       builder: (context) {
         return Container(
-           height: 350 ,
+          height: 350,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -192,18 +191,15 @@ Future displaybottomsheet(
                     child: Padtext(
                         title: "Via", colors: Color.fromARGB(255, 95, 95, 95)),
                   ),
-                  
-                   Text(
-                      "Copy items here, if using \ninstagram to sent request ",
-                      style: TextStyle(
-                          fontSize: 20, color: Color.fromARGB(255, 95, 95, 95)),
-                    ),
-             
+                  Text(
+                    "Copy items here, if using \ninstagram to sent request ",
+                    style: TextStyle(
+                        fontSize: 20, color: Color.fromARGB(255, 95, 95, 95)),
+                  ),
                   InkWell(
                       onTap: () {
                         Clipboard.setData(
                             ClipboardData(text: Cartedproductdeatilstext));
-                 
                       },
                       child: Padding(
                         padding: const EdgeInsets.only(right: 25.0),
@@ -215,21 +211,21 @@ Future displaybottomsheet(
                       ))
                 ],
               ),
-             //what app lunche buttom
+              //what app lunche buttom
               requestSentMethodIconButton(
-                  onTap: () {
-                    ShowMessage("Starting Whatsapp");
-                    launchWhatsapp(
-                        number: whatsappnumberfromfirebase,
-                        message: Cartedproductdeatilstext);
-                  },
-                  title: "Whatsapp",
-                  icon: Icon(
-                    FontAwesomeIcons.whatsapp,
-                    size: 35,
-                    color: const Color.fromARGB(255, 20, 150, 24),
-                  ),
-                  ),
+                onTap: () {
+                  ShowMessage("Starting Whatsapp");
+                  launchWhatsapp(
+                      number: whatsappnumberfromfirebase,
+                      message: Cartedproductdeatilstext);
+                },
+                title: "Whatsapp",
+                icon: Icon(
+                  FontAwesomeIcons.whatsapp,
+                  size: 35,
+                  color: const Color.fromARGB(255, 20, 150, 24),
+                ),
+              ),
               //instagram launch button
               requestSentMethodIconButton(
                   onTap: () {
@@ -244,7 +240,6 @@ Future displaybottomsheet(
                     color: Color.fromARGB(206, 153, 0, 255),
                     size: 35,
                   )),
-              
             ],
           ),
         );
@@ -260,7 +255,6 @@ Widget requestSentMethodIconButton(
   return InkWell(
     onTap: onTap,
     child: Row(
-     
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
@@ -268,8 +262,9 @@ Widget requestSentMethodIconButton(
           child: icon,
         ),
         Padtext(
-          subtitle: subtitle,
-          title: title, colors: Color.fromARGB(248, 170, 170, 170))
+            subtitle: subtitle,
+            title: title,
+            colors: Color.fromARGB(248, 170, 170, 170))
       ],
     ),
   );

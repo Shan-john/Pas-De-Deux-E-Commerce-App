@@ -13,11 +13,11 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\shone\Downloads\screw\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\shone\Downloads\screw\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:26:5-79
-16-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:26:22-76
+16-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:26:5-79
+16-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:26:22-76
 17
 18    <permission
 18-->[androidx.core:core:1.10.1] C:\Users\shone\.gradle\caches\transforms-3\18a7f5e1e6c11d26de9342f92785d7ea\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
@@ -71,43 +71,43 @@
 61            android:value="2" />
 62
 63        <service
-63-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+63-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 64            android:name="com.google.firebase.components.ComponentDiscoveryService"
-64-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+64-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 65            android:directBootAware="true"
 65-->[com.google.firebase:firebase-common:20.3.3] C:\Users\shone\.gradle\caches\transforms-3\b382574606cb6990fad73af0e708e7b1\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
 66            android:exported="false" >
-66-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:68:13-37
+66-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:68:13-37
 67            <meta-data
-67-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+67-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-68-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+68-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 69                android:value="com.google.firebase.components.ComponentRegistrar" />
-69-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+69-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 70            <meta-data
-70-->[:firebase_storage] C:\Users\shone\Downloads\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+70-->[:firebase_storage] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-71-->[:firebase_storage] C:\Users\shone\Downloads\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+71-->[:firebase_storage] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
 72                android:value="com.google.firebase.components.ComponentRegistrar" />
-72-->[:firebase_storage] C:\Users\shone\Downloads\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+72-->[:firebase_storage] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 73            <meta-data
-73-->[:cloud_firestore] C:\Users\shone\Downloads\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+73-->[:cloud_firestore] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-74-->[:cloud_firestore] C:\Users\shone\Downloads\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+74-->[:cloud_firestore] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 75                android:value="com.google.firebase.components.ComponentRegistrar" />
-75-->[:cloud_firestore] C:\Users\shone\Downloads\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+75-->[:cloud_firestore] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 76            <meta-data
-76-->[:firebase_core] C:\Users\shone\Downloads\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+76-->[:firebase_core] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-77-->[:firebase_core] C:\Users\shone\Downloads\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+77-->[:firebase_core] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[:firebase_core] C:\Users\shone\Downloads\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+78-->[:firebase_core] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 79            <meta-data
-79-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:69:13-71:85
+79-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:69:13-71:85
 80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-80-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:70:17-109
+80-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:70:17-109
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:71:17-82
+81-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:71:17-82
 82            <meta-data
 82-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\shone\.gradle\caches\transforms-3\f8ad1949b47dea47c8a56e722d7b840b\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
 83                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
@@ -115,107 +115,107 @@
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
 84-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\shone\.gradle\caches\transforms-3\f8ad1949b47dea47c8a56e722d7b840b\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
 85            <meta-data
-85-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\shone\.gradle\caches\transforms-3\71cf31e673cc845a00d5deab16dd311d\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:19:13-21:85
+85-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\shone\.gradle\caches\transforms-3\4e0e5c0f46e10531f37cde70027100b0\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:17:13-19:85
 86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-86-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\shone\.gradle\caches\transforms-3\71cf31e673cc845a00d5deab16dd311d\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:20:17-111
+86-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\shone\.gradle\caches\transforms-3\4e0e5c0f46e10531f37cde70027100b0\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:18:17-111
 87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\shone\.gradle\caches\transforms-3\71cf31e673cc845a00d5deab16dd311d\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:21:17-82
+87-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\shone\.gradle\caches\transforms-3\4e0e5c0f46e10531f37cde70027100b0\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:19:17-82
 88        </service>
 89
 90        <provider
-90-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+90-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 91            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-91-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+91-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
 92            android:authorities="com.example.screw.flutter.image_provider"
-92-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+92-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
 93            android:exported="false"
-93-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+93-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 94            android:grantUriPermissions="true" >
-94-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+94-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
 95            <meta-data
-95-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+95-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
 96                android:name="android.support.FILE_PROVIDER_PATHS"
-96-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+96-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 97                android:resource="@xml/flutter_image_picker_file_paths" />
-97-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+97-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
 98        </provider>
 99
 100        <activity
-100-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+100-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 101            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-101-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+101-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 102            android:exported="false"
-102-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+102-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 103            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-103-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+103-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 104        <activity
-104-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:29:9-46:20
+104-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:29:9-46:20
 105            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-105-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:30:13-80
+105-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:30:13-80
 106            android:excludeFromRecents="true"
-106-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:31:13-46
+106-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:31:13-46
 107            android:exported="true"
-107-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:32:13-36
+107-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:32:13-36
 108            android:launchMode="singleTask"
-108-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:33:13-44
+108-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:33:13-44
 109            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-109-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:34:13-72
+109-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:34:13-72
 110            <intent-filter>
-110-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:35:13-45:29
+110-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:35:13-45:29
 111                <action android:name="android.intent.action.VIEW" />
-111-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
-111-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
+111-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:17-69
+111-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:25-66
 112
 113                <category android:name="android.intent.category.DEFAULT" />
-113-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
-113-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
+113-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:38:17-76
+113-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:38:27-73
 114                <category android:name="android.intent.category.BROWSABLE" />
-114-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
-114-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
+114-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:17-78
+114-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:27-75
 115
 116                <data
-116-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
+116-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:41:17-44:51
 117                    android:host="firebase.auth"
-117-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
+117-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:42:21-49
 118                    android:path="/"
-118-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
+118-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:43:21-37
 119                    android:scheme="genericidp" />
-119-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
+119-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:44:21-48
 120            </intent-filter>
 121        </activity>
 122        <activity
-122-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:47:9-64:20
+122-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:47:9-64:20
 123            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-123-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:48:13-79
+123-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:48:13-79
 124            android:excludeFromRecents="true"
-124-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:49:13-46
+124-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:49:13-46
 125            android:exported="true"
-125-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:50:13-36
+125-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:50:13-36
 126            android:launchMode="singleTask"
-126-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:51:13-44
+126-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:51:13-44
 127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-127-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:52:13-72
+127-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:52:13-72
 128            <intent-filter>
-128-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:53:13-63:29
+128-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:53:13-63:29
 129                <action android:name="android.intent.action.VIEW" />
-129-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
-129-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
+129-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:17-69
+129-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:25-66
 130
 131                <category android:name="android.intent.category.DEFAULT" />
-131-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
-131-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
+131-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:38:17-76
+131-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:38:27-73
 132                <category android:name="android.intent.category.BROWSABLE" />
-132-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
-132-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
+132-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:17-78
+132-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:27-75
 133
 134                <data
-134-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
+134-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:41:17-44:51
 135                    android:host="firebase.auth"
-135-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
+135-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:42:21-49
 136                    android:path="/"
-136-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
+136-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:43:21-37
 137                    android:scheme="recaptcha" />
-137-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\shone\.gradle\caches\transforms-3\18e49b2b100e45f9c4277dfab55a51d2\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
+137-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:44:21-48
 138            </intent-filter>
 139        </activity>
 140
