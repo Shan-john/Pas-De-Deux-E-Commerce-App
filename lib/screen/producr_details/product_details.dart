@@ -151,15 +151,14 @@ class _ProductdetailsState extends State<Productdetails> {
 
                           // adding to the list of app provider of cart
                           productModel = widget.product.copyWith(qty: 1);
-                          if (appProvider.getCartproductList
-                              .contains(productModel)) {
+                          if (appProvider.getCartproductList.contains(productModel)) {
                             Routes.instance
-                                .push(widget: CartScreeen(), context: context);
+                                .push(widget: const CartScreeen(), context: context);
                           } else {
 
                             appProvider.addCartProvider(productModel);
                               Routes.instance
-                                .push(widget: CartScreeen(), context: context);
+                                .push(widget: const CartScreeen(), context: context);
                           }
 
                           
