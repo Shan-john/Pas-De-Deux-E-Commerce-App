@@ -137,44 +137,44 @@ class _ProductdetailsState extends State<Productdetails> {
 
                             ShowMessage("Added to cart");
                           },
-                          wdivby: 2.4,
+                          wdivby: 1.4,
                           text: "Add To Cart",
                           wsize: wsize,
                           hsize: hsize,
                           hdivby: 15),
                       // button for buy product
-                      custombutton(
-                        ontap: () async {
-                          //copy the product with its count
+                      // custombutton(
+                      //   ontap: () async {
+                      //     //copy the product with its count
 
                        
 
-                          // adding to the list of app provider of cart
-                          productModel = widget.product.copyWith(qty: 1);
-                          if (appProvider.getCartproductList.contains(productModel.id) == true) {
-                            Routes.instance
-                                .push(widget: const CartScreeen(), context: context);
-                          } else {
-                             ShowMessage("Added to cart");
-                            appProvider.addCartProvider(productModel);
-                              Routes.instance
-                                .push(widget: const CartScreeen(), context: context);
+                      //     // adding to the list of app provider of cart
+                      //     productModel = widget.product.copyWith(qty: 1);
+                      //     if (appProvider.getCartproductList.contains(productModel.id) == true) {
+                      //       Routes.instance
+                      //           .push(widget: const CartScreeen(), context: context);
+                      //     } else {
+                      //        ShowMessage("Added to cart");
+                      //       appProvider.addCartProvider(productModel);
+                      //         Routes.instance
+                      //           .push(widget: const CartScreeen(), context: context);
                                
-                          }
+                      //     }
 
                           
-                        },
+                      //   },
 
-                        wdivby: 2.4,
-                        text: "Buy",
-                        wsize: wsize,
-                        // colors:  Color.fromARGB(255, 170, 22, 12) ,
+                      //   wdivby: 2.4,
+                      //   text: "Buy",
+                      //   wsize: wsize,
+                      //   // colors:  Color.fromARGB(255, 170, 22, 12) ,
 
-                        colors: Colors.red,
-                        hdivby: 15,
-                        hsize: hsize,
-                        textcolor: Colors.white,
-                      ),
+                      //   colors: Colors.red,
+                      //   hdivby: 15,
+                      //   hsize: hsize,
+                      //   textcolor: Colors.white,
+                      // ),
                     ],
                   ),
                 ),
