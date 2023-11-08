@@ -98,12 +98,11 @@ class _ProductdetailsState extends State<Productdetails> {
                           // if null
                           : const Text("loading"),
                       //favorite button
-                      
                     ],
                   ),
                 ),
                 CustomSpacers(
-                  height: hsize/20 ,
+                  height: hsize / 20,
                 ),
                 //calling  ProductDetailBottomCard
                 ProductDetailBottomCard(
@@ -116,7 +115,7 @@ class _ProductdetailsState extends State<Productdetails> {
 
                 //
                 CustomSpacers(
-                  height: hsize/10,
+                  height: hsize / 10,
                 ),
                 // but anf add to cart button
                 Padding(
@@ -135,7 +134,6 @@ class _ProductdetailsState extends State<Productdetails> {
                             // adding to the list of app provider of cart
 
                             appProvider.addCartProvider(productModel);
-                          
 
                             ShowMessage("Added to cart");
                           },
@@ -149,25 +147,30 @@ class _ProductdetailsState extends State<Productdetails> {
                         ontap: () async {
                           //copy the product with its count
 
-                          // ShowMessage("Added to cart");
+                          ShowMessage("Added to cart");
 
                           // adding to the list of app provider of cart
+                          productModel = widget.product.copyWith(qty: 1);
+                          if (appProvider.getCartproductList
+                              .contains(productModel)) {
+                            Routes.instance
+                                .push(widget: CartScreeen(), context: context);
+                          } else {
 
-                          //  appProvider.addCartProvider(productModel);
+                            appProvider.addCartProvider(productModel);
+                              Routes.instance
+                                .push(widget: CartScreeen(), context: context);
+                          }
 
-                          Routes.instance
-                              .push(widget: CartScreeen(), context: context);
-                            
-                                
-                              
+                          
                         },
 
                         wdivby: 2.4,
                         text: "Buy",
                         wsize: wsize,
                         // colors:  Color.fromARGB(255, 170, 22, 12) ,
-                        
-                        colors:Colors.red,
+
+                        colors: Colors.red,
                         hdivby: 15,
                         hsize: hsize,
                         textcolor: Colors.white,
