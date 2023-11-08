@@ -147,18 +147,19 @@ class _ProductdetailsState extends State<Productdetails> {
                         ontap: () async {
                           //copy the product with its count
 
-                          ShowMessage("Added to cart");
+                       
 
                           // adding to the list of app provider of cart
                           productModel = widget.product.copyWith(qty: 1);
-                          if (appProvider.getCartproductList.contains(productModel)) {
+                          if (appProvider.getCartproductList.contains(productModel.id) == true) {
                             Routes.instance
                                 .push(widget: const CartScreeen(), context: context);
                           } else {
-
+                             ShowMessage("Added to cart");
                             appProvider.addCartProvider(productModel);
                               Routes.instance
                                 .push(widget: const CartScreeen(), context: context);
+                               
                           }
 
                           
