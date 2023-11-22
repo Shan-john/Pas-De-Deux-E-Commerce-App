@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\shone\Downloads\screw\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\shone\Downloads\screw\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:26:5-79
 16-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:26:22-76
@@ -71,37 +71,37 @@
 61            android:value="2" />
 62
 63        <service
-63-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+63-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 64            android:name="com.google.firebase.components.ComponentDiscoveryService"
-64-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+64-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 65            android:directBootAware="true"
 65-->[com.google.firebase:firebase-common:20.3.3] C:\Users\shone\.gradle\caches\transforms-3\b382574606cb6990fad73af0e708e7b1\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
 66            android:exported="false" >
 66-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:68:13-37
 67            <meta-data
-67-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+67-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-68-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+68-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 69                android:value="com.google.firebase.components.ComponentRegistrar" />
-69-->[:firebase_auth] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+69-->[:firebase_auth] C:\Users\shone\Downloads\screw\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 70            <meta-data
-70-->[:firebase_storage] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+70-->[:firebase_storage] C:\Users\shone\Downloads\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-71-->[:firebase_storage] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+71-->[:firebase_storage] C:\Users\shone\Downloads\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
 72                android:value="com.google.firebase.components.ComponentRegistrar" />
-72-->[:firebase_storage] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+72-->[:firebase_storage] C:\Users\shone\Downloads\screw\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 73            <meta-data
-73-->[:cloud_firestore] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+73-->[:cloud_firestore] C:\Users\shone\Downloads\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-74-->[:cloud_firestore] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+74-->[:cloud_firestore] C:\Users\shone\Downloads\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 75                android:value="com.google.firebase.components.ComponentRegistrar" />
-75-->[:cloud_firestore] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+75-->[:cloud_firestore] C:\Users\shone\Downloads\screw\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 76            <meta-data
-76-->[:firebase_core] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+76-->[:firebase_core] C:\Users\shone\Downloads\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-77-->[:firebase_core] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+77-->[:firebase_core] C:\Users\shone\Downloads\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[:firebase_core] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+78-->[:firebase_core] C:\Users\shone\Downloads\screw\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 79            <meta-data
 79-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:69:13-71:85
 80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -123,31 +123,31 @@
 88        </service>
 89
 90        <provider
-90-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+90-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 91            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-91-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+91-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
 92            android:authorities="com.example.screw.flutter.image_provider"
-92-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+92-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
 93            android:exported="false"
-93-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+93-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 94            android:grantUriPermissions="true" >
-94-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+94-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
 95            <meta-data
-95-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+95-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
 96                android:name="android.support.FILE_PROVIDER_PATHS"
-96-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+96-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 97                android:resource="@xml/flutter_image_picker_file_paths" />
-97-->[:image_picker_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+97-->[:image_picker_android] C:\Users\shone\Downloads\screw\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
 98        </provider>
 99
 100        <activity
-100-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+100-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 101            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-101-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+101-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 102            android:exported="false"
-102-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+102-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 103            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-103-->[:url_launcher_android] J:\basic projects\flutter project\MyApp(Git Hub Released app)\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+103-->[:url_launcher_android] C:\Users\shone\Downloads\screw\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 104        <activity
 104-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\shone\.gradle\caches\transforms-3\f640c8004932b168309dd090ca90a28b\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:29:9-46:20
 105            android:name="com.google.firebase.auth.internal.GenericIdpActivity"

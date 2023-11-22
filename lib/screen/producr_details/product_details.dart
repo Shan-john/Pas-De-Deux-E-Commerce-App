@@ -7,7 +7,7 @@ import 'package:screw/constant/routes.dart';
 
 import 'package:screw/models/Product_model/product_model.dart';
 import 'package:screw/provider/app_provider.dart';
-import 'package:screw/screen/Cart_Screen/cart_screen.dart';
+ 
 
 import 'package:screw/screen/producr_details/product_detail_bottomcard.dart';
 
