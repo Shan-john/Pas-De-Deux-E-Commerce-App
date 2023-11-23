@@ -30,9 +30,10 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
       setState(() {
         image = File(pickedImage.path);
       });
-  
     }
   }
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +83,9 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
               ),
             ),
           ),
-         CustomSpacers(height: 30,),
+          CustomSpacers(
+            height: 30,
+          ),
           Padding(
             padding: const EdgeInsets.all(10.0),
             child: Primarybutton(
@@ -90,18 +93,14 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
               onpressed: () async {
                 UserModel userModel = appProvider.getuserInfromation;
                 appProvider.updateUserInfoFirebase(userModel, image, context);
-              
 
-                if (newnamecontroller.text== "") {
-
-                
-                } 
-                else {
+                if (newnamecontroller.text == "") {
+                } else {
                   UserModel userModel = appProvider.getuserInfromation.copyWith(
                       name: newnamecontroller.text,
                       phone: newphonecontroller.text);
                   appProvider.updateUserInfoFirebase(userModel, image, context);
-                   ShowMessage("sucessfully Update the profile");
+                  ShowMessage("sucessfully Update the profile");
                 }
               },
             ),

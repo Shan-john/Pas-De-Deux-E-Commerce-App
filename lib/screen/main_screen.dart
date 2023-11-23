@@ -38,6 +38,12 @@ class _MainscreenState extends State<Mainscreen> {
     super.initState();
   }
 
+@override
+void dispose() {
+    // TODO: implement dispose
+    
+    super.dispose();
+  }
   @override
   Widget build(BuildContext context) {
     Provider.of<AppProvider>(context, listen: true);

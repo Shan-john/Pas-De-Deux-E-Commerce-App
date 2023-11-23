@@ -40,11 +40,18 @@ class _HomeState extends State<Home> {
     Future.delayed(
       const Duration(seconds: 5),
       () async {
-        setState(() async {
+        setState(()  {
           appbartext = "Pas des Deux";
         });
       },
     );
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    getproducts();
+    super.dispose();
   }
 
 // // product and category getting function

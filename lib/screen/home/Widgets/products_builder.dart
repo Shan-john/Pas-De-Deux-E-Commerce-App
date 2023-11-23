@@ -71,7 +71,7 @@ Widget bestproductcard(
     child: Padding(
       padding: const EdgeInsets.only(right: 10, left: 10, bottom: 10.0),
       child: Container(
-      
+          
         decoration: BoxDecoration(
          color: HexColor("#242628"),
           borderRadius: BorderRadius.circular(15),
@@ -107,7 +107,7 @@ Widget bestproductcard(
             const CustomSpacers(),
             Container(
              width: double.infinity,
-              height: fheight/16  ,
+              height: fheight/13  ,
            
               decoration: BoxDecoration(
                 color: HexColor("#242628"),
@@ -135,18 +135,20 @@ Widget bestproductcard(
                         )
                         //if null
                       : const Text("Loading.."),
+                    
                       // ifproduct price isnot null
                   singleproduct.price != null
                       ? Padding(
-                          padding: const EdgeInsets.only(left: 10.0),
+                          padding: const EdgeInsets.only(left: 10.0,),
                           child: Text(
                             "₹${singleproduct.price!}",
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold,color: Color.fromARGB(224, 255, 255, 255),),
+                                fontSize: 17, fontWeight: FontWeight.bold,color: Color.fromARGB(224, 255, 255, 255),),
                           ),
                         )
                         //if null
                       : const Text("Loading.."),
+                    
                 ],
               ),
             ),

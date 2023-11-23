@@ -14,12 +14,11 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
-      options: FirebaseOptions(
-          apiKey: "AIzaSyB_05BIX2I-tEEMQoKAbMJN64D84RFPMf4",
-          appId: "1:489111586757:android:452de786080201efb52dac",
+      options: const FirebaseOptions(
+          apiKey: "AIzaSyB_05BIX2I-tEEMQoKAbMJN64D84RFPMf4", 
+          appId: "1:489111586757:web:302f46485c1ab2c3b52dac",
           messagingSenderId: "",
-          projectId: "screw-78f73"));
-
+          projectId: "screw-78f73",));
   SystemChrome.setPreferredOrientations(
     [
       DeviceOrientation.portraitDown,

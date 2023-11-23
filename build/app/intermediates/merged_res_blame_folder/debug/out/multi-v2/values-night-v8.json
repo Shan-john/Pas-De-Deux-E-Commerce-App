@@ -4,7 +4,7 @@
             "outputFile": "com.example.screw.app-mergeDebugResources-25:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "J:\\basic projects\\flutter project\\MyApp(Git Hub Released app)\\screw\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\shone\\Downloads\\screw\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
