@@ -8,6 +8,7 @@ class Responsive_Layout_Error_Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 19, 24, 70),
       body: SizedBox(
        
         height: MediaQuery.of(context).size.height,

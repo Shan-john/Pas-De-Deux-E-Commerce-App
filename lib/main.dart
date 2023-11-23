@@ -18,7 +18,8 @@ Future<void> main() async {
           apiKey: "AIzaSyB_05BIX2I-tEEMQoKAbMJN64D84RFPMf4", 
           appId: "1:489111586757:web:302f46485c1ab2c3b52dac",
           messagingSenderId: "",
-          projectId: "screw-78f73",));
+          projectId: "screw-78f73"));
+
   SystemChrome.setPreferredOrientations(
     [
       DeviceOrientation.portraitDown,
