@@ -31,8 +31,10 @@ class _SearchscreenState extends State<Searchscreen> {
         .where((element) =>
             element.categorie!.toLowerCase().contains(value.toLowerCase())
             ||
-            element.name!.toLowerCase().contains(value.toLowerCase())
-            || element.price!.toString().contains(value.toString()))
+            element.name!.toLowerCase().contains(value.toLowerCase()
+            
+             )||element.price!.toString().contains(value.toLowerCase())
+            )
         .toList();
     setState(() {});
   }

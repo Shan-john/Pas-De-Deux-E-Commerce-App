@@ -47,12 +47,12 @@ class _HomeState extends State<Home> {
     );
   }
 
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    getproducts();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   // TODO: implement dispose
+  //   getproducts();
+  //   super.dispose();
+  // }
 
 // // product and category getting function
   Future<void> getproducts() async {

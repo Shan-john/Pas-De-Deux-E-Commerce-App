@@ -221,7 +221,7 @@ Widget categoriseVeiwcard(
             const CustomSpacers(),
             Container(
               width: double.infinity,
-              height: fheight / 16.98,
+              height: fheight / 13,
               decoration: BoxDecoration(
                 color: HexColor("#242628"),
                 borderRadius: const BorderRadius.only(
