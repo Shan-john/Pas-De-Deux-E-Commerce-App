@@ -84,7 +84,7 @@ class FirebaseFireStoreHelper {
     } catch (e) {
       ShowMessage(e.toString());
 
-      return null;
+
     }
   }
 }
