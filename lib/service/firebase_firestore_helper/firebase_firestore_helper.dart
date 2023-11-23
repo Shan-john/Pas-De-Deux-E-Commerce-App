@@ -13,6 +13,7 @@ class FirebaseFireStoreHelper {
   final FirebaseFirestore _firebaseFirestore = FirebaseFirestore.instance;
   Future<List<CategoriesModel>> getCategories() async {
     try {
+      
       QuerySnapshot<Map<String, dynamic>> quertsnapshot =
           await _firebaseFirestore.collection("Categorise").get();
       List<CategoriesModel> categoriselist = quertsnapshot.docs
@@ -84,7 +85,7 @@ class FirebaseFireStoreHelper {
     } catch (e) {
       ShowMessage(e.toString());
 
-      return null;
+
     }
   }
 }

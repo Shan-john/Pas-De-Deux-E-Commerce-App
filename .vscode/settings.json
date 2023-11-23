@@ -2,5 +2,17 @@
     "files.associations": {
         "functional": "c"
     },
-    "cmake.sourceDirectory": "D:/andorid studio/screw/linux"
+    "cmake.sourceDirectory": "C:/Users/shone/Downloads/screw/linux/flutter",
+    "cmake.options.advanced": {
+        
+        "build": {
+            "statusBarVisibility": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "visible"
+        }
+    }
 }
