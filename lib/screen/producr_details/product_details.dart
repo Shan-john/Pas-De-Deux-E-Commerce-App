@@ -24,7 +24,7 @@ class Productdetails extends StatefulWidget {
 
   @override
   State<Productdetails> createState() => _ProductdetailsState();
-}
+} 
 
 class _ProductdetailsState extends State<Productdetails> {
   List<ProductModel> productimages = [];
