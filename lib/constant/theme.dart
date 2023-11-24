@@ -9,13 +9,13 @@ ThemeData themeData = ThemeData(
       weight: 18,
       color: HexColor("#242628"),
     ),
-    titleTextStyle: TextStyle(
+    titleTextStyle: const TextStyle(
       color:Colors.white,
       fontSize: 23,
       fontWeight: FontWeight.bold,
     ),
     elevation: 0,
-    color: Color.fromARGB(
+    color: const Color.fromARGB(
       255,
       240,
       239,
@@ -23,11 +23,11 @@ ThemeData themeData = ThemeData(
     ),
   ),
  // primaryColor:  Color.fromARGB(255, 170, 22, 12),
- primaryColor: Color.fromARGB(106, 6, 4, 112),
+ primaryColor: const Color.fromARGB(248, 179, 21, 21),
   inputDecorationTheme: InputDecorationTheme(
   
   labelStyle: const  TextStyle( color: Colors.white ),
-    hintStyle: TextStyle(color: Color.fromARGB(153, 97, 97, 97)),
+    hintStyle: const TextStyle(color: Color.fromARGB(153, 255, 255, 255)),
     prefixIconColor: Colors.grey,
     suffixIconColor: Colors.grey,
     border: outlineInputBorder,
@@ -41,7 +41,7 @@ ThemeData themeData = ThemeData(
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 15,
-      backgroundColor:  Color.fromARGB(106, 6, 4, 112),
+      backgroundColor: const  Color.fromARGB(106, 6, 4, 112),
      // backgroundColor: Color.fromARGB(255, 170, 22, 12),
       disabledBackgroundColor: Colors.grey,
       textStyle: const TextStyle(
@@ -54,7 +54,7 @@ ThemeData themeData = ThemeData(
   ),
 );
 OutlineInputBorder outlineInputBorder = OutlineInputBorder(
-  borderRadius: BorderRadius.all(
+  borderRadius: const BorderRadius.all(
     Radius.circular(
       50,
     ),

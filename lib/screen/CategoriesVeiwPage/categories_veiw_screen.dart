@@ -253,7 +253,7 @@ Widget categoriseVeiwcard(
                       ? Padding(
                           padding: const EdgeInsets.only(left: 10.0),
                           child: Text(
-                            "₹" + singleproduct.price!.toString(),
+                            "₹${singleproduct.price!}",
                             style: const TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,

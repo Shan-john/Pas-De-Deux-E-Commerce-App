@@ -70,17 +70,17 @@ class _SearchscreenState extends State<Searchscreen> {
               showDialog(
                   context: context,
                   builder: (BuildContext context) {
-                    return MyDrawer();
+                    return myDrawer();
                   });
               setState(() {});
             },
-            child: Icon(
+            child: const Icon(
               Icons.menu,
               color: Color.fromARGB(221, 255, 255, 255),
               size: 30,
             ),
-          ):SizedBox(),
-          CustomSpacers(
+          ): const SizedBox(),
+         const CustomSpacers(
             width: 30,
           )
         ],
@@ -118,7 +118,7 @@ class _SearchscreenState extends State<Searchscreen> {
   Widget textpriceselector({ required String data,required int lower,required int upper}) {
     return InkWell(
       child: Padding(
-        padding:  EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(8.0),
         child: Text(data,style: const TextStyle(fontSize: 20,fontWeight: FontWeight.w500,color:  Color.fromARGB(153, 255, 255, 255)),),
       ),
       onTap: () {
@@ -132,10 +132,10 @@ class _SearchscreenState extends State<Searchscreen> {
     );
   }
 
-  Widget MyDrawer() {
+  Widget myDrawer() {
     return  AlertDialog(
       backgroundColor:  HexColor("#242628"),
-      title: Center(child: Text(
+      title: const Center(child: Text(
         
         "Select Range",style: TextStyle(fontSize: 26 ,fontWeight: FontWeight.bold,color: Color.fromARGB(153, 255, 255, 255)),),),
       content: Container(
@@ -155,7 +155,7 @@ class _SearchscreenState extends State<Searchscreen> {
       upper: 500
       ),
        textpriceselector(
-      data:   "500<=100",
+      data:   "500<=1000",
       lower: 500,
       upper: 1000
       ), 
