@@ -33,7 +33,7 @@ class _MainscreenState extends State<Mainscreen> {
   void initState() {
     Future.delayed(Duration(seconds: 3), () {
       isloading = true;
-      // setState(() {});
+      setState(() {});
     });
     super.initState();
   }
