@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomSpacers(height: hsize / 90),
-                //top bar 
+                //top bar
                 TopsTitle(
                   subtitle: "Welcome Back ",
                   title: "Login",
@@ -45,11 +45,9 @@ class _LoginState extends State<Login> {
                 CustomSpacers(height: hsize / 76),
                 // Email Text field
                 textfieldeditor(
-                  
                   controller: emailcontroller,
                   decoration: const InputDecoration(
                       hintText: "Email",
-                    
                       prefixIcon: Icon(
                         Icons.email,
                       )),
@@ -57,11 +55,11 @@ class _LoginState extends State<Login> {
                 CustomSpacers(height: hsize / 76),
                 //Password Text field
                 TextFormField(
-                    style:  TextStyle( color: Colors.white ),
+                  style: TextStyle(color: Colors.white),
                   obscureText: obscuretext,
                   controller: passwordcontroller,
                   decoration: InputDecoration(
-                    // ink well to switch the visiblity to true and false
+                      // ink well to switch the visiblity to true and false
                       suffixIcon: InkWell(
                           onTap: () {
                             setState(() {
@@ -69,8 +67,7 @@ class _LoginState extends State<Login> {
                             });
                           },
                           child: const Icon(Icons.remove_red_eye)),
-                      hintText: "Password", 
-                     
+                      hintText: "Password",
                       prefixIcon: const Icon(
                         Icons.password_outlined,
                       )),
@@ -82,34 +79,42 @@ class _LoginState extends State<Login> {
                     // checking the password and email are not null if it true return true
                     bool isvalidated = loginvalidation(
                         emailcontroller.text, passwordcontroller.text);
-                        //then 
+                    //then
                     if (isvalidated == true) {
                       bool? islogined = await FirebaseAuthHelper.instance.login(
-                          emailcontroller.text, passwordcontroller.text, context);
-                          //if login in sucess full completed
+                          emailcontroller.text,
+                          passwordcontroller.text,
+                          context);
+                      //if login in sucess full completed
                       if (islogined! == true) {
-                        // route to main screen 
-                        Routes.instance
-                            .pushandRemoveUntil(widget: const Mainscreen(), context: context);
+                        // route to main screen
+                        Routes.instance.pushandRemoveUntil(
+                            widget: const Mainscreen(), context: context);
                       }
                     }
                   },
                   widget: const Text("Login"),
                 ),
                 CustomSpacers(height: hsize / 35),
-                const Center(child: Text("Don't Have An Account ",style: TextStyle(color: Color.fromARGB(251, 255, 255, 255)),)),
+                const Center(
+                    child: Text(
+                  "Don't Have An Account ",
+                  style: TextStyle(color: Color.fromARGB(251, 255, 255, 255)),
+                )),
                 CustomSpacers(height: hsize / 70),
                 Center(
-                    child: InkWell(
-                      // if dont have an account then navigate to sign Up screen on press
-                        onTap: () {
-                          Routes.instance
-                              .pushreplace(widget: const SignUp(), context: context);
-                        },
-                        child: Text(
-                          "Create an Account ?",
-                          style: TextStyle(color: themeData.primaryColor),
-                        )))
+                  child: InkWell(
+                    // if dont have an account then navigate to sign Up screen on press
+                    onTap: () {
+                      Routes.instance.pushreplace(
+                          widget: const SignUp(), context: context);
+                    },
+                    child: Text(
+                      "Create an Account ?",
+                      style: TextStyle(color: themeData.primaryColor),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
